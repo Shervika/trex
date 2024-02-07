@@ -1,0 +1,134 @@
+#bckg {
+  background: url("https://wallpaperset.com/w/full/b/0/4/23787.jpg") left -200px bottom -150px ;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+  
+  .game {
+    width: 600px;
+  height: 200px;
+  border: 1px solid black; 
+  margin-left: 250px;
+  margin-top:165px;
+  
+  background-image: url(img/sky.png);
+    }
+  
+    #h1{
+     display:flex;
+      justify-content: center;
+      color: black;
+    }
+    
+    #headding {
+      margin-left: 650px;
+      color: green;
+    }
+    #dino {
+      width: 50px;
+      height: 50px;
+      background-image: url(img/sonic_run_1.png);
+      background-size: 50px 50px;
+      position: relative;
+      top: 150px;
+    }
+    
+    .jump {
+      animation: jump 0.3s linear;
+    }
+    
+    @keyframes jump {
+      0% {
+        top: 150px;
+      }
+    
+      30% {
+        top: 130px;
+      }
+    
+      50% {
+        top: 80px;
+      }
+    
+      80% {
+        top: 130px;
+      }
+    
+      100% {
+        top: 150px;
+      }
+    }
+    
+    #cactus {
+      width: 20px;
+      height: 40px;
+      position: relative;
+      top: 110px;
+      left: 580px;
+    
+      background-image: url("img/nettle_1.png");
+      background-size: 20px 40px;
+    
+      animation: block 1s infinite linear;
+    }
+    
+    @keyframes block {
+      0% {
+        left: 580px;
+      }
+    
+      100% {
+        left: -20px;
+      }
+    }
+  
+   #teqsti{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: red;
+     justify-content: center;
+     text-align: center;
+     width:100%;
+   }
+   #tamashi{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+   color: red;
+   position: relative;
+    top:213px; 
+    left: 73% ;
+    
+   }
+   #score{
+     font-family: sans-serif;
+     color: black;
+     
+   }
+   #Register{
+    width: 200px;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+   }
+   #ghilaki{
+     color: red;
+     padding:5;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: black;
+   }
+
+   .background-image {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpapers.com/images/hd/sonic-senses-blue-photo-cover-4mvq3qtvlf3yarvg.jpg');
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
